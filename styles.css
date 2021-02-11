@@ -1,0 +1,35 @@
+/* whole card */
+
+hr {
+    border-top: 5px solid orange;
+  margin: 0px;
+
+}
+
+img {
+    margin: 0px;
+}
+
+h1, h2 {
+    margin: 0px
+}
+
+/* top of card */
+
+.container {
+    position: relative
+    text-align: center;
+    color: white;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: orange;
+    color: white
+  }
+
+
+
+/* bottom of card */
