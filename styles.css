@@ -1,35 +1,53 @@
-/* whole card */
+
+body {
+  background-color: thistle;
+}
+
+.abluebox {
+  background-color: cyan;
+  width: 300px;
+  height: 245px;
+  margin: 0px;
+  border-radius: 0px 50px 0px 0px;
+}
+.newstudent {
+  background-color: rgb(255, 72, 0);
+  color: white;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  margin: 0px;
+}
+
+.awhitebox {
+  background-color: white;
+  border-radius: 0px 50px 0px 50px;
+  width:300px;
+  height: 450px;
+  margin: 0px;
+}
+
+#jermainepic {
+  width: 100%;
+  border-radius: 0px 50px 0px 0px
+}
 
 hr {
-    border-top: 5px solid orange;
+    border-top: 5px solid rgb(255, 72, 0);
   margin: 0px;
+}
+
+/*Used inline CSS because I couldn't get margins to work on the h2*/
+h2, {
 
 }
 
-img {
-    margin: 0px;
+h3 {
+  margin-top: 0px;
+  margin-left:30px;}
+
+p {
+  margin-top: 0px
+  margin-right: 30px;
+  margin-left: 30px;
 }
-
-h1, h2 {
-    margin: 0px
-}
-
-/* top of card */
-
-.container {
-    position: relative
-    text-align: center;
-    color: white;
-  }
-  
-  .top-left {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: orange;
-    color: white
-  }
-
-
-
-/* bottom of card */
